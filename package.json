@@ -1,6 +1,6 @@
 {
   "name": "ghostreader",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Read values from a buffer without maintaining an offset",
   "main": "./lib/index.js",
   "contributors": [
