@@ -1,6 +1,6 @@
 {
   "name": "buffer-read",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Read values from a buffer without maintaining an offset",
   "main": "./lib/index.js",
   "contributors": [
