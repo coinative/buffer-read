@@ -1,6 +1,6 @@
-# ghostreader
+# buffer-read
 
-[![Build Status](https://img.shields.io/travis/coinative/ghostreader.svg)](https://travis-ci.org/coinative/ghostreader) [![Coverage Status](https://img.shields.io/coveralls/coinative/ghostreader.svg)](https://coveralls.io/r/coinative/ghostreader?branch=master)
+[![Build Status](https://img.shields.io/travis/coinative/buffer-read.svg)](https://travis-ci.org/coinative/buffer-read) [![Coverage Status](https://img.shields.io/coveralls/coinative/buffer-read.svg)](https://coveralls.io/r/coinative/buffer-read?branch=master)
 
 Read values from a buffer without maintaining an offset. Useful when you don't want to maintain an offset yourself.
 
@@ -10,13 +10,13 @@ Read values from a buffer without maintaining an offset. Useful when you don't w
 ## Install
 
 ```
-npm install ghostreader
+npm install buffer-read
 ```
 
 ## Usage
 
 ```js
-var Reader = require('ghostreader');
+var Reader = require('buffer-read');
 
 var reader = new Reader(new Buffer('6101010172010203', 'hex'));
 reader.toString(1); // 'a'

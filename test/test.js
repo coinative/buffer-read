@@ -4,7 +4,7 @@ function readerFromHex(hex) {
   return new Reader(new Buffer(hex, 'hex'));
 }
 
-describe('ghostreader', function () {
+describe('buffer-read', function () {
   it('readUInt8()', function () {
     var reader = readerFromHex('00' + '18' + '8d' + 'ff');
 

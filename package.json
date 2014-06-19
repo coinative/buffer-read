@@ -1,5 +1,5 @@
 {
-  "name": "ghostreader",
+  "name": "buffer-read",
   "version": "0.0.1",
   "description": "Read values from a buffer without maintaining an offset",
   "main": "./lib/index.js",
@@ -9,12 +9,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/coinative/ghostreader.git"
+    "url": "https://github.com/coinative/buffer-read.git"
   },
   "bugs": {
-    "url": "https://github.com/coinative/ghostreader/issues"
+    "url": "https://github.com/coinative/buffer-read/issues"
   },
-  "homepage": "https://github.com/coinative/ghostreader",
+  "homepage": "https://github.com/coinative/buffer-read",
   "license": "MIT",
   "scripts": {
     "test": "mocha -r ./test/support/env -R dot ./test",
